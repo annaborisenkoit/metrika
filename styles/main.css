@@ -174,7 +174,11 @@ a.btn {
   a.btn {
     display: block;
     text-align: center;
+    height: 51px;
     width: 100%;
+    padding: 14.5px 27px;
+    font-size: 16px;
+    line-height: 22px;
   }
 }
 
