@@ -149,6 +149,8 @@ a.btn {
   p.description {
     font-size: 22px;
     line-height: 30px;
+    max-width: 345px;
+    margin-top: 20px;
   }
 
   .interior__image {
