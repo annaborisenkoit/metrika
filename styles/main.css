@@ -166,6 +166,7 @@ a.btn {
   a.btn {
     display: block;
     text-align: center;
+    width: 100%;
   }
 }
 
