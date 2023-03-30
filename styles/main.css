@@ -163,7 +163,7 @@ a.btn {
     line-height: 22px;
   }
   
-  a btn {
+  a.btn {
     display: block;
     text-align: center;
   }
