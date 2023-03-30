@@ -1,5 +1,5 @@
 @import "/styles/intro.css";
-@import "/projects.css";
+@import "projects.css";
 
 html {
   scroll-behavior: smooth;
