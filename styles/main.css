@@ -82,8 +82,7 @@ p.description {
 
 a.btn {
   padding: 20px 40px;
-  width: 255px;
-  height: 67px;
+  display: inline-block;
   font-size: 20px;
   line-height: 27px;
   background-color: #ad1818;
