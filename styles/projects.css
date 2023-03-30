@@ -1,0 +1,31 @@
+.section-long {
+  margin-top: 150px;
+}
+
+.projects {
+  margin-top: 30px;
+  margin-bottom: 87px;
+}
+
+.projects .project {
+  margin-top: 90px;
+}
+
+.projects :first-child {
+  margin-top: 0;
+}
+
+.project__image {
+  margin-bottom: 14px;
+}
+
+.project__title {
+  margin-bottom: 15px;
+}
+
+.project__link {
+  font-size: 20px;
+  line-height: 27px;
+  color: #ad1818;
+  text-decoration: none;
+}
