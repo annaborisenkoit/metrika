@@ -182,8 +182,3 @@ a.btn {
   }
 }
 
-@media (max-width: 374px) {
-  .image-text {
-    max-width: 312px;
-  }
-}
