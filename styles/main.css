@@ -1,0 +1,171 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  letter-spacing: -0.03em;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: 0 125px 0 125px;
+  background: #ffffff;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  max-width: 956px;
+  color: #121212;
+}
+
+h2 {
+  font-size: 18px;
+
+  line-height: 25px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 41px;
+}
+
+h1,
+h2,
+h3 {
+  color: #121212;
+}
+
+h1,
+h2,
+h3,
+a,
+p,
+div {
+  letter-spacing: -0.03em;
+  font-weight: 400;
+}
+
+.interior__image {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 150px;
+  height: 500px;
+  max-width: 100%;
+  background-image: url("../resourses/interior.png");
+}
+
+.image-text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  width: 430px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+p.description {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 61px;
+  text-align: left;
+  max-width: 1056px;
+}
+
+a.btn {
+  padding: 20px 40px;
+  width: 255px;
+  height: 67px;
+  font-size: 20px;
+  line-height: 27px;
+  background-color: #ad1818;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 1150px) {
+  .container {
+    width: 100%;
+    padding: 0 17px 0 17px;
+  }
+
+  h1 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .interior__image {
+    margin-bottom: 120px;
+    width: 100%;
+    background-image: url("../resourses/interior-tablet.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+  .image-text {
+    bottom: 30px;
+  }
+
+  p.description {
+    font-size: 35px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 0 13px 0 13px;
+  }
+
+  h1 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  h2 {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  p.description {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .interior__image {
+    margin-bottom: 80px;
+    width: 100%;
+    height: 304px;
+    background-image: url("../resourses/interior-mobile.png");
+    background-size: cover;
+    background-position: 50% 65%;
+  }
+
+  .image-text {
+    max-width: 312px;
+    left: 15px;
+    bottom: 15px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 374px) {
+  .image-text {
+    max-width: 312px;
+  }
+}
