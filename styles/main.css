@@ -54,6 +54,11 @@ div {
   font-weight: 400;
 }
 
+.section-long {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
 p.description {
   margin-top: 30px;
   margin-bottom: 30px;
