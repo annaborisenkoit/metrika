@@ -54,11 +54,6 @@ div {
   font-weight: 400;
 }
 
-.section-long {
-  padding-top: 150px;
-  padding-bottom: 150px;
-}
-
 p.description {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -130,10 +125,6 @@ a.btn {
     line-height: 48px;
     max-width: 693px;
     margin-bottom: 30px;
-  }
-
-  .section-long {
-    padding-top: 120px;
   }
 
   h3 {
@@ -214,10 +205,6 @@ a.btn {
     padding: 14.5px 27px;
     font-size: 16px;
     line-height: 22px;
-  }
-
-  .section-long {
-    padding-top: 82px;
   }
 
   .projects {
