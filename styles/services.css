@@ -1,7 +1,7 @@
-h1,
-h2,
-h3 {
-  color: #ffffff;
+.container-black h1,
+.container-black h2,
+.container-black h3 {
+  color: #fff;
 }
 
 .container-black {
@@ -103,7 +103,6 @@ h3 {
   .container-black__title {
     margin-left: 2px;
     margin-bottom: 30px;
-    color: #ffffff;
   }
 
   .service__image {
