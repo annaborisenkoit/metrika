@@ -37,3 +37,10 @@
     padding-bottom: 103px;
   }
 }
+
+@media (max-width: 767px) {
+  .section-long {
+    padding-top: 81px;
+    padding-bottom: 144px;
+  }
+}
