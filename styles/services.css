@@ -158,7 +158,6 @@
   .services {
     margin-top: 20px;
     flex-direction: column;
-    gap: 60px;
   }
   .service {
     width: 100%;
@@ -177,6 +176,10 @@
     left: 24px;
     font-size: 14px;
     line-height: 19px;
+  }
+
+  .image-description {
+    margin-bottom: 0px;
   }
 
   .full-width-button_inverted {
