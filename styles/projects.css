@@ -8,8 +8,8 @@
   margin-bottom: 90px;
 }
 
-.projects .project {
-  margin-top: 90px;
+.project {
+  margin-top: 80px;
 }
 
 .projects :first-child {
@@ -36,12 +36,51 @@
     padding-top: 120px;
     padding-bottom: 113px;
   }
+
+  .project {
+    margin-top: 82px;
+  }
+
+  .project__image {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    margin-bottom: 13px;
+  }
+
+  .project__title {
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 767px) {
   .section-long {
     padding-top: 81px;
     padding-bottom: 144px;
+  }
+
+  .projects {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  .project {
+    margin-top: 20px;
+    margin-bottom: 49px;
+  }
+
+  .project__image {
+    margin-bottom: 20px;
+    height: 250px;
+  }
+
+  .project__title {
+    margin-bottom: 11px;
+  }
+
+  .project__link {
+    font-size: 16px;
+    line-height: 22px;
   }
 
   .project__link {
