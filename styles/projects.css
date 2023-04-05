@@ -1,15 +1,15 @@
 .section-long {
   padding-top: 150px;
-  padding-bottom: 150px;
+  padding-bottom: 149px;
 }
 
 .projects {
   margin-top: 33px;
-  margin-bottom: 102px;
+  margin-bottom: 90px;
 }
 
 .project {
-  margin-top: 80px;
+  margin-top: 90px;
 }
 
 .projects :first-child {
