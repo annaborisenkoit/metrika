@@ -1,6 +1,7 @@
 @import "intro.css";
 @import "projects.css";
 @import "services.css";
+@import "reviews.css";
 
 html {
   scroll-behavior: smooth;
