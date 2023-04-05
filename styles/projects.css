@@ -5,7 +5,7 @@
 
 .projects {
   margin-top: 33px;
-  margin-bottom: 90px;
+  margin-bottom: 102px;
 }
 
 .project {
@@ -34,7 +34,7 @@
 @media (max-width: 1199px) {
   .section-long {
     padding-top: 120px;
-    padding-bottom: 113px;
+    padding-bottom: 104px;
   }
 
   .project {

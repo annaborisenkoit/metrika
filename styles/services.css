@@ -97,7 +97,7 @@
 
   .services {
     column-gap: 10px;
-    row-gap: 93px;
+    row-gap: 90px;
   }
 
   .service {
@@ -111,6 +111,7 @@
 
   .service__image {
     width: 100%;
+    margin-bottom: 16px;
   }
 
   .image-label {

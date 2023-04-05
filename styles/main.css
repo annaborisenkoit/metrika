@@ -75,7 +75,7 @@ a.btn {
   cursor: pointer;
 }
 
-.fullWidthBtn {
+.full-width-button {
   display: block;
   width: 100%;
   height: 153px;
@@ -88,7 +88,7 @@ a.btn {
   color: #ad1818;
 }
 
-.fullWidthBtn:hover {
+.full-width-button:hover {
   background-color: #ad1818;
   color: #ffffff;
 }
@@ -192,7 +192,7 @@ a.btn {
     line-height: 22px;
   }
 
-  .fullWidthBtn {
+  .full-width-button {
     display: block;
     width: 100%;
     height: 100px;
