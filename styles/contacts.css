@@ -83,6 +83,7 @@
   .contacts-wrapper {
     display: flex;
     gap: 114px;
+    margin-bottom: 82px;
   }
   .contacts-inner {
     padding-top: 120px;
@@ -97,9 +98,13 @@
   .post {
     font-size: 45px;
     line-height: 60px;
+    margin-left: 9px;
+  }
+
+  .post-before::before {
+    left: 10px;
   }
 }
-
 @media (max-width: 802px) {
   .contacts-wrapper {
     justify-content: space-between;

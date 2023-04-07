@@ -3,6 +3,7 @@
 @import "services.css";
 @import "reviews.css";
 @import "contacts.css";
+@import "footer.css";
 
 html {
   scroll-behavior: smooth;
@@ -29,7 +30,6 @@ h1 {
 
 h2 {
   font-size: 18px;
-
   line-height: 25px;
   text-align: left;
   text-transform: uppercase;
