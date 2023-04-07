@@ -1,0 +1,164 @@
+.contacts-inner {
+  padding-top: 150px;
+}
+
+.contacts {
+  margin-bottom: 74px;
+  background-color: #fff;
+}
+
+.contacts-wrapper {
+  display: flex;
+  gap: 118px;
+  position: relative;
+  margin-bottom: 150px;
+}
+.contacts-title {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.phone-before {
+  position: relative;
+}
+
+.phone-before::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 24px;
+  height: 24px;
+  top: -49px;
+  left: -7px;
+  background-image: url("../resourses/icon-phone.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.post-before {
+  position: relative;
+  margin-top: -10px;
+}
+
+.post-before::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 24px;
+  height: 24px;
+  top: -38px;
+  background-image: url("../resourses/icon-post.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.phone {
+  margin-bottom: 29px;
+  color: #121212;
+  text-decoration: none;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.post {
+  font-size: 60px;
+  line-height: 60px;
+  text-decoration: none;
+  color: #121212;
+  opacity: 0.5;
+  border-bottom: 2px solid;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .contacts-wrapper {
+    display: flex;
+    gap: 114px;
+  }
+  .contacts-inner {
+    padding-top: 120px;
+    margin-left: 4px;
+  }
+
+  .phone {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .post {
+    font-size: 45px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 802px) {
+  .contacts-wrapper {
+    justify-content: space-between;
+    gap: 0;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .contacts {
+    width: 100%;
+  }
+
+  .contacts-wrapper {
+    flex-direction: column;
+    gap: 58px;
+  }
+
+  .contacts-inner {
+    padding-top: 80px;
+  }
+
+  .contacts {
+    margin-bottom: 58px;
+  }
+
+  .contacts-title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .phone-before::before {
+    top: -39px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .post-before::before {
+    top: -40px;
+    width: 18px;
+    height: 18px;
+    left: -4px;
+  }
+
+  .post-before {
+    margin-top: 5px;
+  }
+
+  .phone {
+    font-size: 35px;
+    line-height: 42px;
+  }
+
+  .post {
+    font-size: 35px;
+    line-height: 42px;
+    margin-left: -5px;
+  }
+}
