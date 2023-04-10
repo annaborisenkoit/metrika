@@ -1,17 +1,18 @@
 .contacts-inner {
-  padding-top: 150px;
+  padding-top: 3px;
 }
 
 .contacts {
   margin-bottom: 74px;
   background-color: #fff;
+  margin-top: -3px;
 }
 
 .contacts-wrapper {
   display: flex;
   gap: 118px;
   position: relative;
-  margin-bottom: 150px;
+  margin-bottom: 153px;
 }
 .contacts-title {
   font-size: 18px;
@@ -86,7 +87,7 @@
     margin-bottom: 82px;
   }
   .contacts-inner {
-    padding-top: 120px;
+    padding-top: 2px;
     margin-left: 4px;
   }
 
@@ -127,7 +128,7 @@
   }
 
   .contacts-inner {
-    padding-top: 80px;
+    padding-top: 5px;
   }
 
   .contacts {

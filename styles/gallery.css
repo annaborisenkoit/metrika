@@ -1,4 +1,4 @@
-.gallery .container {
+.gallery__container {
   width: 1150px;
   margin: 0 auto;
   background-color: transparent;
@@ -89,12 +89,12 @@
 }
 
 @media (max-width: 1199px) {
-  .gallery {
-    margin-bottom: 120px;
+  .gallery__container {
+    width: 100%;
   }
 
-  .container {
-    width: 100%;
+  .gallery {
+    margin-bottom: 120px;
   }
 
   .gallery__title-wrapper {
@@ -125,6 +125,10 @@
   .gallery__controls-wrapper {
     bottom: 152px;
     margin-bottom: 4px;
+  }
+
+  .gallery__controls {
+    gap: 45px;
   }
 
   .gallery__control-prev {
@@ -164,7 +168,7 @@
 
   .gallery__controls-wrapper {
     bottom: 50%;
-    margin-bottom: 0;
+    margin-bottom: -14px;
   }
 
   .gallery__controls {
