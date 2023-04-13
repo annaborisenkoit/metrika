@@ -54,7 +54,7 @@
   border-radius: 5px;
 }
 
-.full-width-button_inverted {
+/*.full-width-button_inverted {
   display: block;
   margin-top: 109px;
   width: 100%;
@@ -71,7 +71,7 @@
 .full-width-button_inverted:hover {
   background-color: #fff;
   color: #ad1818;
-}
+}*/
 
 @media (max-width: 1199px) {
   .container-black__centering {
@@ -122,9 +122,9 @@
     line-height: 27px;
   }
 
-  .full-width-button_inverted {
+  /*.full-width-button_inverted {
     margin-top: 86px;
-  }
+  }*/
 }
 
 @media (max-width: 767px) {
