@@ -47,7 +47,7 @@ button {
   width: 50px;
   background-color: #fff;
   border: none;
-  background-image: url(/resourses/close_cross.png);
+  background-image: url(../resourses/close_cross.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -62,6 +62,6 @@ button {
     right: 29px;
     height: 30px;
     width: 30px;
-    background-image: url(/resourses/close_cross-mobile.png);
+    background-image: url(../resourses/close_cross-mobile.png);
   }
 }
