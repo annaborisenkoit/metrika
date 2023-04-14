@@ -1,0 +1,28 @@
+.order__title {
+  font-size: 45px;
+  line-height: 61px;
+  text-align: center;
+}
+
+.order__subtitle {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.order__input {
+  width: 100%;
+  margin-top: 40px;
+}
+
+@media (max-width: 767px) {
+  .order__title {
+    font-size: 25px;
+    line-height: 34px;
+  }
+
+  .order__subtitle {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

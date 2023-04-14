@@ -19,13 +19,34 @@
   </head>
   <body>
     <div class="main">
-      <div class="js-popup popup popap_open">
+      <div class="js-popup popup popup_open">
         <div class="js-popup__content popup__content">
           <button class="js-popup__close-btn popup__close-btn"></button>
           <div class="order__title">Заказать услугу</div>
           <div class="order__subtitle">
             Заполните форму, мы свяжемся с вами в течение суток
           </div>
+
+          <form class="order__form" autocomplete="on">
+            <input
+              class="input order__input"
+              type="text"
+              name="name"
+              placeholder="Имя"
+            />
+            <input
+              class="input order__input"
+              type="email"
+              name="email"
+              placeholder="Электронная почта"
+            />
+            <input
+              class="input order__input"
+              type="tel"
+              name="phone"
+              placeholder="Номер телефона"
+            />
+          </form>
 
           <button
             class="full-width-button full-width-button_inverted full-width-button_small"
@@ -180,7 +201,9 @@
                   <div class="image-label">5% от стоимости</div>
                 </div>
               </div>
-              <a href="" class="full-width-button_inverted">Заказать услугу</a>
+              <a href="" class="full-width-button full-width-button_inverted"
+                >Заказать услугу</a
+              >
             </div>
           </div>
         </div>
