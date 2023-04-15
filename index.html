@@ -18,7 +18,22 @@
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
-    <div class="main">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="/">
+            <img src="resourses/logo.png" alt="Логотип компании Метрика" />
+          </a>
+          <nav class="header__nav">
+            <a class="header__nav-link" href="#about-us">О НАС</a>
+            <a class="header__nav-link" href="#projects">ПРОЕКТЫ</a>
+            <a class="header__nav-link" href="#services">УСЛУГИ</a>
+            <a class="header__nav-link" href="#contacts">КОНТАКТЫ</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
       <div class="js-popup popup">
         <div class="js-popup__content popup__content">
           <button class="js-popup__close-btn popup__close-btn"></button>
@@ -386,9 +401,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </main>
 
-    <div class="footer">
+    <footer class="footer">
       <div class="footer__centering">
         <div class="footer-inner">
           <div class="nav-wrapper">
@@ -402,7 +417,7 @@
           <p class="footer__copy">студия дизайна интерьера Метрика — 2023</p>
         </div>
       </div>
-    </div>
+    </footer>
 
     <script src="gallery.js"></script>
     <script src="popup.js"></script>

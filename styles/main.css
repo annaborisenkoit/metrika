@@ -1,14 +1,15 @@
-@import "intro.css";
-@import "buttons.css";
-@import "popup.css";
-@import "order.css";
-@import "input.css";
-@import "projects.css";
-@import "services.css";
-@import "reviews.css";
-@import "gallery.css";
-@import "contacts.css";
-@import "footer.css";
+@import "./header.css";
+@import "./intro.css";
+@import "./buttons.css";
+@import "./popup.css";
+@import "./order.css";
+@import "./input.css";
+@import "./projects.css";
+@import "./services.css";
+@import "./reviews.css";
+@import "./gallery.css";
+@import "./contacts.css";
+@import "./footer.css";
 
 html {
   scroll-behavior: smooth;
@@ -22,7 +23,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1150px;
+  width: 1150px;
 }
 h1 {
   font-size: 60px;
@@ -81,24 +82,6 @@ a.btn {
   border-radius: 5px;
   cursor: pointer;
 }
-
-/*.full-width-button {
-  display: block;
-  width: 100%;
-  height: 153px;
-  font-size: 30px;
-  line-height: 153px;
-  border: 1px solid #ad1818;
-  border-radius: 5px;
-  text-decoration: none;
-  text-align: center;
-  color: #ad1818;
-}
-
-.full-width-button:hover {
-  background-color: #ad1818;
-  color: #ffffff;
-}*/
 
 @media (max-width: 1199px) {
   .container {
@@ -198,12 +181,4 @@ a.btn {
     font-size: 16px;
     line-height: 22px;
   }
-
-  /*.full-width-button {
-    display: block;
-    width: 100%;
-    height: 100px;
-    font-size: 22px;
-    line-height: 100px;
-  }*/
 }

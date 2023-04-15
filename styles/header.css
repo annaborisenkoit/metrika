@@ -1,0 +1,25 @@
+header {
+  margin-bottom: 70px;
+  margin-top: 33px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav-link {
+  color: #121212;
+  margin-left: 60px;
+  line-height: 25px;
+  font-size: 18px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.header__nav-link:hover,
+.header__nav-link:active {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
