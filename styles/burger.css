@@ -17,6 +17,7 @@
 
 .burger-btn {
   display: none;
+  z-index: 2000;
 }
 
 .burger_open {
@@ -82,10 +83,10 @@
 
 @media (max-width: 1199px) {
   .burger-btn {
+    position: relative;
     display: block;
     width: 50px;
     height: 50px;
-    position: relative;
     background: none;
     border: none;
   }
@@ -101,6 +102,11 @@
     background-color: black;
   }
 
+  .burger-btn_open::before,
+  .burger-btn_open::after {
+    display: none;
+  }
+
   .burger-btn::after {
     top: 16px;
     width: 31px;
@@ -108,8 +114,8 @@
 
   .burger-btn_open {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 50px;
+    right: 35px;
     height: 34px;
     width: 34px;
     background: url("../resourses/close_cross-mobile.png");
