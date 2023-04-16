@@ -1,5 +1,5 @@
 header {
-  margin-bottom: 70px;
+  margin-bottom: 44px;
   margin-top: 33px;
 }
 
@@ -33,11 +33,15 @@ header {
   .header__nav {
     display: none;
   }
-}
 
+  .header {
+    margin-top: 19px;
+    margin-bottom: 60px;
+  }
+}
 @media (max-width: 767px) {
   .header {
     margin-top: 14px;
-    margin-bottom: 29px;
+    margin-bottom: 44px;
   }
 }

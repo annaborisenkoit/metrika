@@ -95,14 +95,14 @@
     content: "";
     position: absolute;
     right: 0;
-    top: 0;
+    top: 9;
     height: 2px;
     width: 100%;
     background-color: black;
   }
 
   .burger-btn::after {
-    top: 6px;
+    top: 16px;
     width: 31px;
   }
 
@@ -125,7 +125,17 @@
 }
 
 @media (max-width: 767px) {
-  .popup__close-btn {
+  .burger-btn::before,
+  .burger-btn::after {
+    top: 21;
+    width: 38px;
+  }
+
+  .burger-btn::after {
+    top: 26px;
+    width: 24px;
+  }
+  /*.popup__close-btn {
     top: 40px;
     right: 29px;
     height: 30px;
@@ -135,5 +145,5 @@
 
   .popup__content {
     padding: 80px 16px 80px 16px;
-  }
+  }*/
 }
