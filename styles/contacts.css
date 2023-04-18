@@ -106,7 +106,7 @@
     left: 10px;
   }
 }
-@media (max-width: 802px) {
+@media (max-width: 855px) {
   .contacts-wrapper {
     justify-content: space-between;
     gap: 0;
