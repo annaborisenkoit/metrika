@@ -119,8 +119,8 @@
 
   .burger-btn_open {
     position: absolute;
-    top: 50px;
-    right: 35px;
+    top: 16px;
+    right: 25px;
     height: 34px;
     width: 34px;
     background: url("../resourses/close_cross-mobile.png");
