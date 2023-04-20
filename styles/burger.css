@@ -61,6 +61,12 @@
   color: #000;
 }
 
+.burger__image {
+  width: 156px;
+  height: 26px;
+  margin-bottom: 50px;
+}
+
 .burger__contacts {
   margin-top: 90px;
 }
@@ -127,12 +133,6 @@
     background-repeat: no-repeat;
     background-position: center;
   }
-
-  .burger__image {
-    width: 156px;
-    height: 26px;
-    margin-bottom: 50px;
-  }
 }
 
 @media (max-width: 767px) {
@@ -146,15 +146,4 @@
     top: 26px;
     width: 24px;
   }
-  /*.popup__close-btn {
-    top: 40px;
-    right: 29px;
-    height: 30px;
-    width: 30px;
-    background-image: url(../resourses/close_cross-mobile.png);
-  }
-
-  .popup__content {
-    padding: 80px 16px 80px 16px;
-  }*/
 }
