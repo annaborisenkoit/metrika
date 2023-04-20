@@ -30,13 +30,17 @@ header {
 }
 
 @media (max-width: 1199px) {
-  .header__nav {
-    display: none;
-  }
-
   .header {
     margin-top: 19px;
     margin-bottom: 60px;
+  }
+
+  .header__inner {
+    height: 50px;
+  }
+
+  .header__nav {
+    display: none;
   }
 }
 @media (max-width: 767px) {
